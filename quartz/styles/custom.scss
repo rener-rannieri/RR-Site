@@ -1,3 +1,26 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+a.internal.internal-link {
+  background-color: rgba(0, 158, 237, 0.20) !important;
+  color: #008cc8;
+}
+
+:root[saved-theme="dark"] a.internal.internal-link {
+  color: #9fe8ff;
+}
+
+.text-highlight {
+  background-color: rgba(255, 242, 54, 0.30) !important;
+}
+
+:root[saved-theme="dark"] .text-highlight {
+  background-color: rgba(255, 242, 54, 0.20) !important;
+}
+
+article em {
+  color: #7449ff;
+}
+
+:root[saved-theme="dark"] article em {
+  color: #b39aff;
+}
